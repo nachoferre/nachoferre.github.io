@@ -72,14 +72,22 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #27AE60;
+  border-color: #2196F3;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #27AE60;
+  color: #ff5722;
 }
 .img-centered {
   margin: 0 auto;
+}
+.img-project {
+  height: 204px;
+  width: 669px;
+}
+.img-porfolio {
+  height: 408px;
+  width: 800px;
 }
 header {
   text-align: center;
@@ -206,7 +214,7 @@ section.success a.active {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: #2196F3;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -237,6 +245,9 @@ section.success a.active {
 }
 #portfolio * {
   z-index: 2;
+}
+.portfolio-row{
+    padding-top: 60px;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -394,7 +405,7 @@ footer .footer-below {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #27AE60;
+  background-color: #2196F3;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -405,7 +416,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #27AE60;
+  background-color: #2196F3;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
