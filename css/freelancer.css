@@ -428,3 +428,12 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+.spaced-row{
+    padding-top: 30px;
+}
+.spaced-row-10{
+    padding-top: 10px;
+}
+.tiny-tyni{
+    font-size: 13px
+}
